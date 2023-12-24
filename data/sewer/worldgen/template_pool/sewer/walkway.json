@@ -1,0 +1,50 @@
+{
+  "elements": [
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "sewer:sewer/walkway/straight",
+        "processors": "sewer:sewer_degredation",
+        "projection": "rigid"
+      },
+      "weight": 18
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "sewer:sewer/walkway/sharp_turn",
+        "processors": "sewer:sewer_degredation",
+        "projection": "rigid"
+      },
+      "weight": 9
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "sewer:sewer/walkway/cross_road",
+        "processors": "sewer:sewer_degredation",
+        "projection": "rigid"
+      },
+      "weight": 2
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "sewer:sewer/walkway/reservoir",
+        "processors": "sewer:sewer_degredation",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "sewer:sewer/walkway/t_junction",
+        "processors": "sewer:sewer_degredation",
+        "projection": "rigid"
+      },
+      "weight": 3
+    }
+  ],
+  "fallback": "minecraft:empty"
+}
